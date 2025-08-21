@@ -1,0 +1,8 @@
+# Task 6 (Attendace Tracker)
+days_of_the_week = ("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday")
+months_of_the_year = ("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December")
+Student_name = input("Dear user, what is your name?: ")
+Gender = input("What is your gender?: ")
+Course_Track = input("What is your course track?: ")
+Current_Month_number = input("What is your current month number(1 - 12?: ")
+Current_day_number = input("What is your current day number?: ")

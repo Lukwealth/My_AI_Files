@@ -1,0 +1,21 @@
+# Task_3 (Simulate a football match ticket system)
+#seat_numbers = set([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50])
+#print(seat_numbers)
+seat_numbers = set(range(1, 51))
+print(seat_numbers)
+
+seat_booking1 = int(input("Kindly enter your booking number: "))
+seat_booking2 = int(input("Kindly enter your booking number: "))
+seat_booking3 = int(input("Kindly enter your booking number: "))
+seat_booking4 = int(input("Kindly enter your booking number: "))
+seat_booking5 = int(input("Kindly enter your booking number: "))
+seat_booking6 = int(input("Kindly enter your booking number: "))
+
+seat_numbers.remove(seat_booking1)
+seat_numbers.remove(seat_booking2)
+seat_numbers.remove(seat_booking3)
+seat_numbers.remove(seat_booking4)
+seat_numbers.remove(seat_booking5)
+seat_numbers.remove(seat_booking6)
+
+print(seat_numbers)
