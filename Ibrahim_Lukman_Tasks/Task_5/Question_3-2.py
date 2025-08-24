@@ -1,0 +1,16 @@
+# Task 3 (Tuple Operations)
+Nigerian_states = input("Dear User, Kindly enter 5 Nigerian states\nNote: ensure you put space before entering another\nNow proceed: ")
+Splitted = Nigerian_states.split()
+# print(Splitted)
+tuple1 = tuple(Splitted)
+# print(tuple1)
+# print(type(tuple1))
+print(tuple1[::4])
+print("Lagos" in tuple1)
+print(len(tuple1))
+
+
+# print(type(Nigerian_states))
+# print(type(Splitted))
+# print(type(tuple1))
+# print(tuple1)

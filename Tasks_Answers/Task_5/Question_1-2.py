@@ -1,0 +1,8 @@
+# Task 1 (Create and Display)
+print("Welcome back user, you are required to input your 3 favorite Nigerian Dishes.")
+first_nigerian_dish = input("kindly input your 1st favorite Nigerian dish: ")
+second_nigrian_dish = input("kindly input your 2nd favorite Nigerian dish: ")
+third_nigerian_dish = input("kindly input your 3rd favorite Nigerian dish: ")
+dishes = (first_nigerian_dish, second_nigrian_dish, third_nigerian_dish)
+print(dishes)
+print(f"{first_nigerian_dish}\n{second_nigrian_dish}\n{third_nigerian_dish}")
